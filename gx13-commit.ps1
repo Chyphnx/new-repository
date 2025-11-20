@@ -1,0 +1,1 @@
+﻿cd C:\Users\cpx\new-repository; \ = Read-Host 'Commit message'; if (-not [string]::IsNullOrWhiteSpace($Message)) { git add .; git commit -m ""; git push } else { Write-Host 'No commit message entered. Skipping commit/push.' }
